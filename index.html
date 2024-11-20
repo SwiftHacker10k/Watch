@@ -11,18 +11,6 @@
         body {
             font-family: 'Roboto', sans-serif;
         }
-
-        /* Hilangkan scrollbar visual */
-        .scroll-container {
-            display: flex;
-            overflow: hidden;
-            white-space: nowrap;
-        }
-
-        .movie {
-            flex: 0 0 auto;
-            margin-right: 1rem;
-        }
     </style>
 </head>
 
@@ -32,73 +20,202 @@
         <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black"></div>
         <div class="absolute bottom-24 left-8 md:left-16">
             <h1 class="text-4xl md:text-6xl font-bold">The Best Movie</h1>
-            <p class="mt-4 max-w-md">Karena ini bajakan jadi iklan judul muncul tapi "KAMI TIDAK MENYARANKAN UNTUK ANDA TERLIBAT"</p>
+            <p class="mt-4 max-w-md">Karena ini bajakan jadi iklan judol muncul tapi "KAMI TIDAK MENYARANKAN UNTUK ANDA TERLIBAT"</p>
         </div>
     </section>
 
     <!-- Content Section -->
     <section class="mt-8 px-4 md:px-16">
-        <!-- Row -->
+        <!-- Row 1 -->
         <div class="mb-8">
-            <h2 class="text-2xl font-bold mb-4">Dynamic Movies</h2>
-            <div class="scroll-container" id="movie-row">
-                <!-- Film akan ditambahkan melalui JavaScript -->
+            <h2 class="text-2xl font-bold mb-4">Nostalgic</h2>
+            <div class="relative">
+                <div class="flex space-x-6 ">
+                    <div class="relative">
+                        <a href="movie 1.html" target="_blank">
+                            <img alt="Movie 1 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://i0.wp.com/www.indofilm1.com/wp-content/uploads/2019/05/zf1idF1ys8zuaAzEEzghre5A4m3.jpg" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/ce0N3TEcFw0?si=rZFXFaTK8TOg4qJO">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                    <div class="relative">
+                        <a href="movie 2.html" target="_blank">
+                            <img alt="Movie 2 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://i0.wp.com/www.indofilm1.com/wp-content/uploads/2024/11/hSmOrZl8ON2aJk6xvjNgVQiPdCP.jpg" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/URL_MOVIE_2_TRAILER">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                    <div class="relative">
+                        <a href="movie 3.html" target="_blank">
+                            <img alt="Movie 3 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://i0.wp.com/www.indofilm1.com/wp-content/uploads/2019/10/qWOkfCgioLEf3Km9OWva93RYWAc.jpg" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/URL_MOVIE_3_TRAILER">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                    <div class="relative">
+                        <a href="movie 4.html" target="_blank">
+                            <img alt="Movie 4 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://i0.wp.com/www.indofilm1.com/wp-content/uploads/2020/07/7S9RvfMBWSTlUZ4VbxDY7oLeenk.jpg" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/URL_MOVIE_4_TRAILER">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                    <div class="relative">
+                        <a href="movie 5.html" target="_blank">
+                            <img alt="Movie 5 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://th.bing.com/th/id/OIP.-CABJ3lQm7icBJ1Fv5SbxQHaLH?rs=1&pid=ImgDetMain" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/URL_MOVIE_5_TRAILER">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                    <div class="relative">
+                        <a href="movie 6.html" target="_blank">
+                            <img alt="Movie 6 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://m.media-amazon.com/images/M/MV5BZDMyYWU4NzItZDY0MC00ODE2LTkyYTMtMzNkNDdmYmFhZDg0XkEyXkFqcGc@._V1_.jpg" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/URL_MOVIE_6_TRAILER">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                    <div class="relative">
+                        <a href="movie 7.html" target="_blank">
+                            <img alt="Movie 7 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://play-lh.googleusercontent.com/nQctOI_jJ9MoTPQmv4SaB6OUg8xwgEpYQT6Gfp2Qk_6wkTPudkXLRCGOh92zB-VbM6_NDdJJg0Qxbf0_DA" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/URL_MOVIE_7_TRAILER">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Top Picks for You</h2>
+            <div class="relative">
+                <div class="flex space-x-6 ">
+                    <div class="relative">
+                        <a href="movie 8.html" target="_blank">
+                            <img alt="Movie 8 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://jadwalnonton.com/data/upload/movies/2021/resident-evil-welcome-to-raccoon-city-a2bb2efe.jpg" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/URL_MOVIE_8_TRAILER">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                    <div class="relative">
+                        <a href="movie 9.html" target="_blank">
+                            <img alt="Movie 9 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://cdn1-production-images-kly.akamaized.net/Dlxa3oF5R6V6HaKf34B4xEqvT6A=/800x1066/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3635478/original/025116000_1637133546-253154135_2120128131476179_3401639978712735642_n.jpg" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/URL_MOVIE_9_TRAILER">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                    <div class="relative">
+                        <a href="movie 10.html" target="_blank">
+                            <img alt="Movie 10 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://m.media-amazon.com/images/M/MV5BMmE0N2YwZGItNDk5Mi00ZWM4LTkyMWUtNGNmYjk5YzhiMjVlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/URL_MOVIE_10_TRAILER">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                    <div class="relative">
+                        <a href="movie 11.html" target="_blank">
+                            <img alt="Movie 11 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/Ngf3BAqxUKUfREFoR879DhttfxB3Bx9GrUNtOTVa4bzHt3knA.jpg" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/URL_MOVIE_11_TRAILER">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                    <div class="relative">
+                        <a href="movie 12.html" target="_blank">
+                            <img alt="Movie 12 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/P2WoQgS7Fyq1KpMWs0ZtqYy8R7Rg1G8GsanZtSJrcBQp9m8E.jpg" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/URL_MOVIE_12_TRAILER">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                    <div class="relative">
+                        <a href="movie 13.html" target="_blank">
+                            <img alt="Movie 13 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/W8qAjLFcMH6FNZ1rhee0fTKtw2SQxx7EqFiShwMjtSSNt3knA.jpg" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/URL_MOVIE_13_TRAILER">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                    <div class="relative">
+                        <a href="movie 14.html" target="_blank">
+                            <img alt="Movie 14 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/CQfb5YfaYnrfUojQUufy8UNPdCR7TpXAK4vmnCe6P4IE1em8E.jpg" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/URL_MOVIE_14_TRAILER">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">New Releases</h2>
+            <div class="relative">
+                <div class="flex space-x-6 ">
+                    <div class="relative">
+                        <a href="movie 15.html" target="_blank">
+                            <img alt="Movie 15 Poster" class="w-48 md:w-64 rounded-md" height="200" src="https://storage.googleapis.com/a1aa/image/2cEoPJ2aSw59M1AzpUBFNFl5bshySHNu5KVajSRk8yAr9m8E.jpg" width="300" />
+                        </a>
+                        <button class="bg-gray-700 text-white text-sm py-1 px-2 rounded flex items-center trailer-btn absolute bottom-2 left-2" data-trailer="https://www.youtube.com/embed/URL_MOVIE_15_TRAILER">
+                            <i class="fas fa-play mr-1"></i>
+                            Trailer
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Script -->
+    <!-- Modal -->
+    <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden" id="trailer-modal">
+        <div class="bg-gray-800 rounded-lg overflow-hidden w-3/4 max-w-2xl">
+            <div class="flex justify-end p-2">
+                <button class="text-white" id="close-modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="p-4">
+                <iframe class="w-full h-96" frameborder="0" id="trailer-video" src="" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
     <script>
-        const movies = [
-            { id: 1, src: "https://i0.wp.com/www.indofilm1.com/wp-content/uploads/2019/05/zf1idF1ys8zuaAzEEzghre5A4m3.jpg", alt: "Movie 1" },
-            { id: 2, src: "https://i0.wp.com/www.indofilm1.com/wp-content/uploads/2024/11/hSmOrZl8ON2aJk6xvjNgVQiPdCP.jpg", alt: "Movie 2" },
-            { id: 3, src: "https://i0.wp.com/www.indofilm1.com/wp-content/uploads/2019/10/qWOkfCgioLEf3Km9OWva93RYWAc.jpg", alt: "Movie 3" },
-            { id: 4, src: "https://i0.wp.com/www.indofilm1.com/wp-content/uploads/2020/07/7S9RvfMBWSTlUZ4VbxDY7oLeenk.jpg", alt: "Movie 4" },
-            { id: 5, src: "https://th.bing.com/th/id/OIP.-CABJ3lQm7icBJ1Fv5SbxQHaLH?rs=1&pid=ImgDetMain", alt: "Movie 5" },
-            { id: 6, src: "https://m.media-amazon.com/images/M/MV5BZDMyYWU4NzItZDY0MC00ODE2LTkyYTMtMzNkNDdmYmFhZDg0XkEyXkFqcGc@._V1_.jpg", alt: "Movie 6" },
-            { id: 7, src: "https://play-lh.googleusercontent.com/nQctOI_jJ9MoTPQmv4SaB6OUg8xwgEpYQT6Gfp2Qk_6wkTPudkXLRCGOh92zB-VbM6_NDdJJg0Qxbf0_DA", alt: "Movie 7" }
-        ];
+        document.querySelectorAll('.trailer-btn').forEach(button => {
+            button.addEventListener('click', function () {
+                const trailerUrl = this.getAttribute('data-trailer');
+                document.getElementById('trailer-video').src = trailerUrl;
+                document.getElementById('trailer-modal').classList.remove('hidden');
+            });
+        });
 
-        const container = document.getElementById("movie-row");
-        let startIndex = 0;
-
-        // Tambahkan film pertama kali
-        function populateMovies(start, count) {
-            container.innerHTML = ""; // Kosongkan kontainer
-            for (let i = start; i < start + count; i++) {
-                const movie = movies[i % movies.length]; // Pastikan index loop
-                const movieElement = document.createElement("a");
-                movieElement.href = `movie${movie.id}.html`;
-                movieElement.target = "_blank";
-                movieElement.className = "movie";
-
-                const img = document.createElement("img");
-                img.src = movie.src;
-                img.alt = movie.alt;
-                img.className = "w-48 md:w-64 rounded-md";
-
-                movieElement.appendChild(img);
-                container.appendChild(movieElement);
-            }
-        }
-
-        // Auto-scroll dan tampilkan film berikutnya
-        function autoScroll() {
-            container.scrollLeft += 1;
-
-            // Jika scroll mencapai akhir kontainer, reset scroll dan update film
-            if (container.scrollLeft >= container.scrollWidth - container.offsetWidth) {
-                startIndex = (startIndex + 5) % movies.length; // Pindah ke batch film berikutnya
-                populateMovies(startIndex, 5);
-                container.scrollLeft = 0; // Reset posisi scroll
-            }
-
-            requestAnimationFrame(autoScroll);
-        }
-
-        // Inisialisasi
-        populateMovies(startIndex, 5); // Muat 5 film pertama
-        autoScroll(); // Mulai scroll otomatis
+        document.getElementById('close-modal').addEventListener('click', function () {
+            document.getElementById('trailer-video').src = '';
+            document.getElementById('trailer-modal').classList.add('hidden');
+        });
     </script>
 </body>
 
